@@ -4,9 +4,10 @@ const levels={
     easy:10, medium:7,hard:3
 }
 //to change level
-const curLevel=levels.medium;
+const curLevel=levels.hard;
 let time=curLevel;
 let score=0;
+let hss=0;
 let isPlaying;//if game is gng on or not
 const wordInput=document.querySelector('#word-input');
 const currentWord=document.querySelector('#current-word');
@@ -14,6 +15,7 @@ const scoreDisplay=document.querySelector('#score');
 const timeDisplay=document.querySelector('#time');
 const message=document.querySelector('#message');
 const seconds=document.querySelector('#seconds');
+const hs=document.querySelector('#highscore');
 
 const words=[
     'dianaaa',
@@ -72,9 +74,12 @@ function startMatch(){
         showWord(words);
         wordInput.value='';
         score++;
+        hss=Math.max(score, hss);
     }
     //if score is -1 display 0;
     score===-1?scoreDisplay.innerHTML=0:scoreDisplay.innerHTML=score; 
+    hs.innerHTML=hss;
+
     
 }
 //match currentWord to wordInput
