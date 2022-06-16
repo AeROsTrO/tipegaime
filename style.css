@@ -7,7 +7,7 @@
 }
 #current-word {
   font-family: "Indie Flower", cursive;
-  margin-left: 400px;
+  margin-left: 800px;
   font-size: 80px;
   /* position: relative;
    */
@@ -21,13 +21,14 @@ body {
   font-family: "Source Code Pro", monospace;
   margin-bottom: 5px;
 
-  margin-left: 340px;
+  margin-left: 720px;
   /* padding-right: -50px; */
   /* padding: 5px 80px 5px -90px; */
   width: 380px;
-  font-size: 40px;
+  font-size: 45px;
   border: none;
   background-color: inherit;
+  color: white;
   outline: none;
   /* border-radius */
 }
@@ -56,9 +57,9 @@ input[type="text"]::after {
   margin-left: 100px;
 }
 .lead {
-  font-family: "Dancing Script", cursive;
+  font-family: "Source Code Pro", monospace;
   font-size: 50px;
-  margin-left: 250px;
+  margin-left: 550px;
   /* color: rgb(24, 216, 24); */
 
   /* font-family: "Indie Flower", cursive; */
@@ -66,8 +67,11 @@ input[type="text"]::after {
   /* font-family: "Source Code Pro", monospace; */
 }
 h3 {
-  margin-left: 220px;
+  margin-left: 620px;
 }
 #message {
-  margin-left: 180px;
+  grid: flex;
+  flex-direction: center;
+  margin-left: 520px;
+  font-size: 60px;
 }
