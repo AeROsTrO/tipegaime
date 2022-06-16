@@ -5,40 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TypeGame</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="row">
-      <div class="yo">
-        <p class="lead">
-          type the given word in <span id="seconds">5</span> seconds
-        </p>
-        <h2 id="current-word">i am probably pretty good at this</h2>
-        <input
-          type="text"
-          class="form-control"
-          id="word-input"
-          placeholder="start typing"
-          autofocus
-        />
-        <h4 class="mt" id="message"></h4>
+    <div>
+      <!-- <div class="roww"> -->
+      <p class="lead">
+        type the given word in <span id="seconds">5</span> seconds
+      </p>
+      <h2 id="current-word">i am probably pretty good at this</h2>
+      <input
+        type="text"
+        class="form-control"
+        id="word-input"
+        placeholder="start typing"
+        autofocus
+      />
 
-        <!-- time and score columns -->
-        <div class="roww">
-          <div class="col">
-            <h3>
-              time left:
-              <span id="time">5</span>
-            </h3>
-          </div>
-          <div class="coll">
-            <h3>
-              Score:
-              <span id="score">0</span>
-            </h3>
-          </div>
-        </div>
-        <!-- instructions -->
+      <!-- </div> -->
+      <!-- time and score columns -->
+      <div class="roww">
+        <h3>
+          time left:
+          <span id="time">5</span>
+        </h3>
+
+        <h3>
+          Score:
+          <span id="score">0</span>
+        </h3>
+        <h4 class="col" id="message"></h4>
       </div>
+      <!-- instructions -->
     </div>
     <script src="main.js"></script>
   </body>

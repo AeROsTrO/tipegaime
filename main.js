@@ -60,7 +60,7 @@ function countdown(){
 function checkStatus(){
     if(!isPlaying && time==0)
 {
-    message.innerHTML='it`s in the past now :)';
+    message.innerHTML='it`s in the past now :,)';
     score=-1; 
 }
 }

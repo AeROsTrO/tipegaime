@@ -1,0 +1,73 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:wght@500&family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Raleway:wght@800&family=Source+Code+Pro&display=swap");
+* {
+  color: rgb(24, 216, 24);
+}
+#current-word {
+  font-family: "Indie Flower", cursive;
+  margin-left: 400px;
+  font-size: 80px;
+  /* position: relative;
+   */
+
+  /* font-family: "Source Code Pro", monospace; */
+}
+body {
+  background-color: black;
+}
+.form-control {
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 5px;
+
+  margin-left: 340px;
+  /* padding-right: -50px; */
+  /* padding: 5px 80px 5px -90px; */
+  width: 380px;
+  font-size: 40px;
+  border: none;
+  background-color: inherit;
+  outline: none;
+  /* border-radius */
+}
+#word-input {
+  padding: 5px 80px 5px -90px;
+}
+/* .form-control > ::placeholder {
+  color: rgb(24, 216, 24);
+} */
+
+/* input[type="text"]::before {
+  border-color: black;
+}
+input[type="text"]::after {
+  border-color: black;
+} */
+/* input[type="text"]:active {
+  border-top: rgb(24, 216, 24);
+} */
+.roww {
+  /* margin-left: 300px; */
+  /* font-family: "Indie Flower", cursive;*/
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Source Code Pro", monospace;
+  font-size: 40px;
+  margin-left: 100px;
+}
+.lead {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  margin-left: 250px;
+  /* color: rgb(24, 216, 24); */
+
+  /* font-family: "Indie Flower", cursive; */
+  /* font-family: "Raleway", sans-serif; */
+  /* font-family: "Source Code Pro", monospace; */
+}
+h3 {
+  margin-left: 220px;
+}
+#message {
+  margin-left: 180px;
+}
