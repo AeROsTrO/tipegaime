@@ -4,15 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Raleway:wght@800&family=Source+Code+Pro&display=swap");
 * {
   color: rgb(24, 216, 24);
+  margin: 30px;
+  padding: 0;
 }
 #current-word {
   font-family: "Indie Flower", cursive;
-  margin-left: 800px;
   font-size: 80px;
-  /* position: relative;
-   */
-
-  /* font-family: "Source Code Pro", monospace; */
 }
 body {
   background-color: black;
@@ -21,57 +18,59 @@ body {
   font-family: "Source Code Pro", monospace;
   margin-bottom: 5px;
 
-  margin-left: 720px;
-  /* padding-right: -50px; */
-  /* padding: 5px 80px 5px -90px; */
   width: 380px;
   font-size: 45px;
   border: none;
   background-color: inherit;
   color: white;
   outline: none;
-  /* border-radius */
+}
+/* select {
+  margin-top: 0px;
+  width: 8rem;
+  height: 3rem;
+  background: black;
+  border: green;
+  cursor: pointer;
+  font-size: 36px;
+}
+select:active {
+  border: none;
+  outline: none;
+}
+
+select:focus {
+  border: none;
+  outline: none;
+} */
+button {
+  width: 90px;
+  height: 30px;
+  margin: 4px;
+  font-size: 20px;
+  background: black;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 5px;
 }
 #word-input {
   padding: 5px 80px 5px -90px;
 }
-/* .form-control > ::placeholder {
-  color: rgb(24, 216, 24);
-} */
 
-/* input[type="text"]::before {
-  border-color: black;
-}
-input[type="text"]::after {
-  border-color: black;
-} */
-/* input[type="text"]:active {
-  border-top: rgb(24, 216, 24);
-} */
 .roww {
-  /* margin-left: 300px; */
-  /* font-family: "Indie Flower", cursive;*/
-  /* font-family: "Raleway", sans-serif; */
   font-family: "Source Code Pro", monospace;
   font-size: 40px;
-  margin-left: 100px;
 }
 .lead {
   font-family: "Source Code Pro", monospace;
   font-size: 50px;
-  margin-left: 550px;
-  /* color: rgb(24, 216, 24); */
+}
 
-  /* font-family: "Indie Flower", cursive; */
-  /* font-family: "Raleway", sans-serif; */
-  /* font-family: "Source Code Pro", monospace; */
-}
-h3 {
-  margin-left: 620px;
-}
 #message {
   grid: flex;
   flex-direction: center;
-  margin-left: 520px;
+  /* margin-left: 520px; */
   font-size: 60px;
+}
+@media only screen and (min-width: 768px) {
 }
